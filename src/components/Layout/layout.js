@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import NavBar from '../NavBar/navBar'
+
 import './layout.scss'
 
 const Layout = () => {

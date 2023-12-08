@@ -3,13 +3,13 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters/animation";
 import snowChild from "../../assets/images/snowChildOpening.png"
 import proud from '../../assets/images/proudOpening.png'
-import { Link, NavLink, Route, Routes } from 'react-router-dom'
+import { Link,} from 'react-router-dom'
 import NavBar from '../NavBar/navBar'
 import "./portfolio.scss";
 
 
 const Portfolio = () => {
-    const [showNav, setShowNav] = useState(false)
+    
     const [letterClass, setLetterClass] = useState('text-animate')
   
     useEffect(() => {

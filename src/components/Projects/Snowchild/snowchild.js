@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../../AnimatedLetters/animation"
-import { Link, NavLink, Route, Routes } from 'react-router-dom'
 import NavBar from '../../NavBar/navBar'
 import snowchildtypo from '../../../assets/images/snowchildColoAndTypo.png'
 import ScOne from '../../../assets/images/SnowChild/SnowChildOneScreen.png'
@@ -16,7 +15,6 @@ import "./snowchild.scss";
 
 
 const Snowchild = () => {
-    const [showNav, setShowNav] = useState(false)
     const [letterClass, setLetterClass] = useState('text-animate')
   
     useEffect(() => {

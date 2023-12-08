@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/animation'
 import MyPic from '../../assets/images/me.jpg'
-import Per from '../../assets/images/percent.png'
 import './home.scss'
 import NavBar from '../NavBar/navBar'
 

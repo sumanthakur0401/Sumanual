@@ -2,7 +2,7 @@ import './navBar.scss'
 import { useState } from 'react'
 import fullSumanual from '../../assets/images/greyFullSumanual.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin,faGithub,faStackOverflow,faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faXTwitter,faLinkedin,faGithub,faStackOverflow,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import {faHome,faUser,faEnvelope,faSuitcase,faBars,faClose,} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 

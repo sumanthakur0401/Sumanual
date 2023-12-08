@@ -1,0 +1,211 @@
+.nav-bar {
+  background: #22202b;
+  width: 90%;
+  height: 50px;
+  top: 0;
+  position: fixed;
+  display: flex;
+  margin: 30px 75px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+
+  .logo {
+    display: block;
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: 200px;
+      height: auto;
+
+      &.sub-logo {
+        width: 50px;
+      }
+    }
+  }
+
+  nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 500px;
+
+    a {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #8b8a91;
+      display: block;
+      line-height: 51px;
+      height: 51px;
+      text-align: center;
+      position: relative;
+      text-decoration: none;
+
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: #0A66C2;
+
+        svg {
+          opacity: 0;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &:after {
+        content: '';
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-family: 'Coolvetica';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &:after {
+          right: 5px;
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &:after {
+        right: 13px;
+        content: 'ABOUT';
+      }
+    }
+
+    a.portfolio-link {
+      &:after {
+        right: 25px;
+        content: 'PORTFOLIO';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        right: 18px;
+        content: 'CONTACT';
+      }
+    }
+
+    a.active {
+      svg {
+        color: #0A66C2;
+      }
+    }
+  }
+
+  ul {
+    bottom: 20px;
+    width: 130px;
+    justify-content: space-around;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 2px 0;
+        display: block;
+        font-size: 20px;
+        line-height: 16px;
+        color: #8b8a91;
+      }
+
+      &:hover {
+        .anchor-icon-x {
+          color: rgb(232, 232, 232);
+        }
+        .anchor-icon-instagram {
+          color: #E1306C;
+        }
+        .anchor-icon-github {
+          color: rgb(48, 225, 207);
+        }
+        .anchor-icon-linkedin {
+          color: #0A66C2;
+        }
+        .anchor-icon-stackoverflow {
+          color: #EA9010;
+        }
+      }
+    }
+  }
+}
+
+.hamburger-icon, .close-icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .nav-bar { 
+    background: transparent;
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+     ul, nav {
+      display: none;
+     }
+
+     nav {
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: #181818;
+      height: 100%;
+      margin: 0;
+      z-index: 2;
+      position: fixed;
+
+      &.mobile-show {
+        display: block;
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a:after {
+        opacity: 1;
+        position: initial;
+        width: auto;
+        margin-left: 10PX;
+      }
+
+      a svg {
+        opacity: 1 !important;
+      }
+     }
+
+     .hamburger-icon,
+     .close-icon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        display: block;
+     }
+  }
+}

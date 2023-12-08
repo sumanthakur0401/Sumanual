@@ -1,0 +1,363 @@
+.portfolio-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+
+    .coder{
+        padding-top: 100px;
+        margin-left: 60px;
+        width: 50%;
+        height: 100%;
+        overflow: auto;
+
+        .TextZone{
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 10rem;
+            font-family: 'Coolvetica';
+            color: #8b8a91;
+            font-weight: 400;
+          
+            &:before {
+              content: '<h1>';
+              font-family: 'La Belle Aurore', cursive;
+              color: #8b8a91;
+              font-size: 18px;
+              opacity: 0.6;
+              line-height: 18px;
+            }
+          
+            &:after {
+              content: '<h1/>';
+              font-family: 'La Belle Aurore', cursive;
+              color: #8b8a91;
+              font-size: 18px;
+              line-height: 18px;
+              opacity: 0.6;
+            }
+          }
+
+          .knowTag{
+            width: 60%;
+            margin: 0 auto;
+            
+          p{  
+            font-size: 2rem;
+            font-family: 'Coolvetica';
+            color: #8b8a91;
+            font-weight: 400;
+            margin: 10px 0;
+            animation: pulse 1s;
+            &:nth-of-type(1) {
+              animation-delay: 1.4s;
+            }
+            }
+
+          .cards{
+            height: auto;
+            width: auto;
+            padding: 10px;
+            margin: 0 auto;
+            border: 2px solid #8b8a91;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            
+            }
+          .lang-soft{
+            font-family: 'Coolvetica';
+            font-weight: 100;
+            border-radius: 5px;
+            padding: 1px;
+            letter-spacing: 2px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin: 8px;
+            width: auto;
+            height: auto;
+            font-size: 1.8rem;  
+          }
+          .lang-soft#java{
+            border: 2px solid #f89820;
+            animation:pulse 1s;
+            &:nth-of-type(1) {
+              animation-delay: 1.1s;
+            }
+          }
+          .lang-soft#html{
+            border: 2px solid #E34C26;
+            animation:pulse 1s;
+            &:nth-of-type(2) {
+              animation-delay: 1.2s;
+            }
+          }
+          .lang-soft#css{
+            border: 2px solid #264de4;
+            animation:pulse 1s;
+            &:nth-of-type(3) {
+              animation-delay: 1.3s;
+            }
+          }
+          .lang-soft#js{
+            border: 2px solid #F0DB4F;
+            animation:pulse 1s;
+            &:nth-of-type(4) {
+              animation-delay: 1.4s;
+            }
+          }
+          .lang-soft#react{
+            border: 2px solid #61dafb;
+            animation:pulse 1s;
+            &:nth-of-type(5) {
+              animation-delay: 1.5s;
+            }
+          }
+          .lang-soft#as{
+            border: 2px solid #a4c639;
+            animation:pulse 1s;
+            &:nth-of-type(6) {
+              animation-delay: 1.6s;
+            }
+          }
+          .lang-soft#git{
+            border: 2px solid #f34f29;
+            animation:pulse 1s;
+            &:nth-of-type(7) {
+              animation-delay: 1.7s;
+            }
+          }
+          .lang-soft#mysql{
+            border: 2px solid #00758f;
+            animation:pulse 1s;
+            &:nth-of-type(8) {
+              animation-delay: 1.8s;
+            }
+          }
+          .lang-soft#mongodb{
+            border: 2px solid #4db33d;
+            animation:pulse 1s;
+            &:nth-of-type(9) {
+              animation-delay: 1.9s;
+            }
+          }
+        }
+
+        .projectTag{
+          width: 60%;
+          padding-top: 50px;
+          margin: 10px auto;
+          font-size: 2rem;
+          color: #8b8a91;
+          font-family: 'Coolvetica';
+          animation: pulse 1s;
+            &:nth-of-type(1) {
+              animation-delay: 1.1s;
+            }
+        }
+        .project-section{
+            width: 60%;
+            height: auto;
+            margin: 0px auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 120px;
+            justify-content: space-between;
+        }
+        .project-card{
+          width: 250px;
+          height: 250px;
+          margin-bottom: 30px;
+          border-radius: 10px;
+          background-color: #22202b4b;
+          cursor: pointer;
+          text-decoration: none;
+          color: #8b8a91;
+          transition: .3s;
+          animation: pulse 1s;
+          &:nth-of-type(1) {
+            animation-delay: 1.1s;
+          }
+          &:nth-of-type(2) {
+            animation-delay: 1.2s;
+          }
+          &:nth-of-type(3) {
+            animation-delay: 1.3s;
+          }
+          &:nth-of-type(4) {
+            animation-delay: 1.4s;
+          }
+        }
+        .project-card:hover{
+          background-color: #22202baf;
+        }
+        .imgContainer{
+          margin: 0 auto;
+          width: 100%;
+        }
+        .projectNameContainer{
+          width: 100%;
+          text-align: center;
+
+          p{
+            font-size: 2rem;
+            font-family: 'Coolvetica';
+          }
+        }
+    }
+
+    hr{
+        margin-top: 100px;
+        border: 1px solid #8b8a91;
+        height: 890px;
+    }
+
+    .designer{
+        width: 50%;
+        height: 100%;
+        overflow: auto;
+        margin-right: 60px;
+        padding-top: 100px;
+        width: 50%;
+        height: 100%;
+        overflow: auto;
+
+        .TextZone{
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 10rem;
+            font-family: 'Coolvetica';
+            color: #8b8a91;
+            font-weight: 400;
+          
+            &:before {
+              content: '<h1>';
+              font-family: 'La Belle Aurore', cursive;
+              color: #8b8a91;
+              font-size: 18px;
+              opacity: 0.6;
+              line-height: 18px;
+            }
+          
+            &:after {
+              content: '<h1/>';
+              font-family: 'La Belle Aurore', cursive;
+              color: #8b8a91;
+              font-size: 18px;
+              line-height: 18px;
+              opacity: 0.6;
+            }
+          }
+          .knowTag{
+            width: 60%;
+            margin: 0 auto;
+            
+          p{  
+            font-size: 2rem;
+            font-family: 'Coolvetica';
+            color: #8b8a91;
+            font-weight: 400;
+            margin: 10px 0;
+            animation: pulse 1s;
+            &:nth-of-type(1) {
+              animation-delay: 1.4s;
+            }
+            }
+
+          .cards{
+            height: auto;
+            width: auto;
+            padding: 10px;
+            margin: 0 auto;
+            border: 2px solid #8b8a91;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            
+            }
+          .lang-soft{
+            font-family: 'Coolvetica';
+            font-weight: 100;
+            border-radius: 5px;
+            padding: 1px;
+            letter-spacing: 2px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin: 8px;
+            width: auto;
+            height: auto;
+            font-size: 1.8rem;  
+          }
+          .lang-soft#photoshop{
+            border: 2px solid rgb(49, 168, 255);
+            animation:pulse 1s;
+            &:nth-of-type(1) {
+              animation-delay: 1.1s;
+            }
+          }
+          .lang-soft#illustrator{
+            border: 2px solid #f97320;
+            animation:pulse 1s;
+            &:nth-of-type(2) {
+              animation-delay: 1.2s;
+            }
+          }
+          .lang-soft#xd{
+            border: 2px solid #d5386f;
+            animation:pulse 1s;
+            &:nth-of-type(3) {
+              animation-delay: 1.3s;
+            }
+          }
+          .lang-soft#figma{
+            border: 2px solid #e88d58;
+            animation:pulse 1s;
+            &:nth-of-type(4) {
+              animation-delay: 1.4s;
+            }
+          }
+          .lang-soft#uxui{
+            border: 2px solid #61dafb;
+            animation:pulse 1s;
+            &:nth-of-type(5) {
+              animation-delay: 1.5s;
+            }
+          }
+          .lang-soft#logos{
+            border: 2px solid #a4c639;
+            animation:pulse 1s;
+            &:nth-of-type(6) {
+              animation-delay: 1.6s;
+            }
+          }
+        }
+    }
+
+
+    .designer::-webkit-scrollbar {
+        display: none;
+      }
+      
+    .designer {
+        -ms-overflow-style: none;
+        scrollbar-width: none;  
+    }
+
+    .coder::-webkit-scrollbar {
+        display: none;
+      }
+      
+    .coder {
+        -ms-overflow-style: none;
+        scrollbar-width: none;  
+    }
+
+}

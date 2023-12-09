@@ -31,19 +31,12 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious Full-stack developer & Graphich Designer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Hi there! 👋 I'm a tech enthusiast with a Master's in Computer Applications, currently diving into the world of full-stack development. With a background in freelance graphic design, I thrive on combining sleek designs with powerful code to deliver exceptional results.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Passionate about creating innovative digital solutions, I'm on the lookout for exciting opportunities to collaborate on impactful projects with forward-thinking companies. Let's connect!!! 🚀💻
           </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
+          
           <Link to="" className="Coder-side">
             70% Coder
           </Link>

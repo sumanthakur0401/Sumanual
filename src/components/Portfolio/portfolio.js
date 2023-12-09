@@ -3,6 +3,7 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters/animation";
 import snowChild from "../../assets/images/snowChildOpening.png"
 import proud from '../../assets/images/proudOpening.png'
+import profilePictureUI from '../../assets/images/UI/profilePictureUI.jpg'
 import { Link,} from 'react-router-dom'
 import NavBar from '../NavBar/navBar'
 import "./portfolio.scss";
@@ -75,7 +76,7 @@ const Portfolio = () => {
               <div className="project-section">
                 <Link to="/snowchild" className="project-card" >
                   <div className="imgContainer">
-                    <img src={snowChild} alt="sc" className="imgContainer"/>
+                    <img src={snowChild} alt="sc" className="scImg"/>
                     <div className="projectNameContainer">
                       <p>
                         SnowChild
@@ -83,22 +84,6 @@ const Portfolio = () => {
                     </div>
                   </div>  
                 </Link>
-                <div className="project-card" >
-                <div className="imgContainer">
-                    <img src={proud} alt="sc" className="imgContainer"/>
-                    <div className="projectNameContainer">
-                      <p>
-                        Proud
-                      </p>
-                    </div>
-                  </div> 
-                </div>
-                <div className="project-card">
-                  
-                </div>
-                <div className="project-card">
-                  
-                </div>
               </div>
             </section> 
 
@@ -137,6 +122,22 @@ const Portfolio = () => {
                       Logos
                     </div>
                  </div>
+              </div>
+
+              <p className="workTag">
+                  Designs
+              </p>
+              <div className="work-section">
+                <Link to="/UI" className="work-card">
+                  <div className="imgContainer">
+                    <img src={profilePictureUI} alt="sc" className="uiImg"/>
+                    <div className="workNameContainer">
+                      <p>
+                        Unusual.imaginative
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
               </div>  
               
             </section> 

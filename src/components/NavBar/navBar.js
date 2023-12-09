@@ -62,7 +62,7 @@ const NavBar = () => {
       <ul>
       <li>
           <a
-            href=""
+            href="https://twitter.com/thakur0401"
             target="_blank"
             rel="noreferrer"
           >
@@ -101,7 +101,7 @@ const NavBar = () => {
         </li>
         <li>
           <a
-            href="" rel="noreferrer" target="_blank">
+            href="https://www.linkedin.com/in/iamsumanthakur/" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
               icon={faLinkedin}
               color="#8b8a91"

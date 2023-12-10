@@ -1,21 +1,13 @@
 .container.about-page{
-  top: 0;
-  position: fixed;
-  height: 100%;
-  
   .SectionOne{
-    height: 700px;
+    height: auto;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
   
     .text-zone {
-    position: absolute;
-    left: 15%;
-    top: 40%;
-    transform: translateY(-50%);
+    position: relative;
     width: 900px;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
     }
 
     h1 {
@@ -24,7 +16,6 @@
       color: #8b8a91;
       font-weight: 400;
       margin-bottom: 40px;
-      left: -10px;
     
       &:before {
         content: '<h1>';
@@ -45,7 +36,7 @@
         line-height: 18px;
         position: absolute;
         left: -30px;
-        bottom: 260px;
+        bottom: 460px;
         margin-left: 20px;
         opacity: 0.6;
       }
@@ -120,13 +111,9 @@
   }
 
   .stage-cube-cont {
-    width: 400px;
-    height: 400px;
-    top: 250px;
-    position: absolute;
-    right: 200px;
-    overflow: scroll;
-    overflow: hidden;
+    width: 30%;
+    height: auto;
+    position: relative;
   }
 
   .cubespinner {
@@ -136,7 +123,7 @@
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: calc(50% - 100px);
 
     div {
@@ -202,5 +189,191 @@
   }
 }
 
+@media screen and (min-width: 1400px) {
+  
+  .about-page 
+  .SectionOne{
+    padding-top: 150px;
+  }  
+}
 
+@media screen and (max-width: 1400px) {
+  
+  .about-page 
+  .SectionOne {
+    padding-top: 100px;
+    .text-zone{
+      .Coder-side {
+        width: 300px;
+     }
+     .Designer-side {
+      width: 200px;
+     }
+    } 
+  }   
+}
 
+@media screen and (max-width: 1200px) {
+  
+  .about-page 
+  .SectionOne {
+    padding-top: 80px;
+  .text-zone{
+    position: relative;
+    width: 900px;
+    display: table-cell;
+    h1 {
+      font-size: 8rem;
+    
+      &:before {
+        visibility: hidden;
+      }
+    
+      &:after {
+        visibility: hidden;
+      }
+    }
+    p {
+      font-size: 1.6rem;
+    }
+
+    .Coder-side {
+      width: 250px;
+   }
+   .Designer-side {
+    width: 120px;
+ }
+  }
+  } 
+  .stage-cube-cont{
+    width: 30%;
+    height: auto;
+    position: relative;
+  }  
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .about-page 
+  .SectionOne {
+    padding-top: 60px;
+    padding-left: 30px;
+  .text-zone{
+    position: relative;
+    margin: 0px auto;
+    h1 {
+      font-size: 7rem;
+    
+      &:before {
+        display: none;
+      }
+    
+      &:after {
+        display: none;
+      }
+    }
+    p {
+      padding-top: 0px;
+      font-size: 1.6rem;
+    }
+
+    .Coder-side {
+      width: 250px;
+   }
+   .Designer-side {
+    width: 120px;
+ }
+  }
+  } 
+  .stage-cube-cont{
+    display: none;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  
+  .about-page 
+  .SectionOne {
+    padding-top: 20px;
+    padding-left: 30px;
+  .text-zone{
+    text-align: center;
+    h1 {
+      font-size: 4rem;
+    
+      &:before {
+        visibility: hidden;
+      }
+    
+      &:after {
+        visibility: hidden;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+    }
+
+    .Coder-side {
+      width:180px;
+      padding: 5px 5px;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+   }
+   .Designer-side {
+    width: 120px;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+ }
+  }
+  } 
+  .stage-cube-cont{
+    position: fixed;
+    top: 300px;
+    right: 220px;
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  
+  .about-page 
+  .SectionOne {
+    padding-top: 20px;
+    padding-left: 30px;
+  .text-zone{
+    text-align: center;
+    h1 {
+      font-size: 4rem;
+    
+      &:before {
+        visibility: hidden;
+      }
+    
+      &:after {
+        visibility: hidden;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+    }
+
+    .Coder-side {
+      width:120px;
+      padding: 2px 2px;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+   }
+   .Designer-side {
+    width: 80px;
+    padding: 2px 2px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+ }
+  }
+  } 
+  .stage-cube-cont{
+    position: fixed;
+    top: 300px;
+    right: 220px;
+  }  
+}

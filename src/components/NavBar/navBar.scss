@@ -162,6 +162,7 @@
     background: transparent;
     position: relative;
     height: auto;
+    margin: 10px auto;
     min-height: auto;
 
      ul, nav {
@@ -180,6 +181,7 @@
 
       &.mobile-show {
         display: block;
+        padding-top: 50px;
       }
 
       a {
@@ -207,10 +209,10 @@
         display: block;
      }
      .close-icon {
-      position: absolute;
+      position: fixed;
       color: #8b8a91;
-      top: 35px;
-      right: 55px;
+      top: 20px;
+      right: 30px;
       display: block;
    }
   }

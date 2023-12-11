@@ -189,13 +189,7 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
-  
-  .about-page 
-  .SectionOne{
-    padding-top: 150px;
-  }  
-}
+
 
 @media screen and (max-width: 1400px) {
   
@@ -256,8 +250,7 @@
   
   .about-page 
   .SectionOne {
-    padding-top: 60px;
-    padding-left: 30px;
+    padding-top: 0px;
   .text-zone{
     position: relative;
     margin: 0px auto;
@@ -290,90 +283,48 @@
   }  
 }
 
-@media screen and (max-width: 500px) {
-  
-  .about-page 
-  .SectionOne {
-    padding-top: 20px;
-    padding-left: 30px;
-  .text-zone{
-    text-align: center;
-    h1 {
-      font-size: 4rem;
-    
-      &:before {
-        visibility: hidden;
-      }
-    
-      &:after {
-        visibility: hidden;
-      }
-    }
-    p {
-      font-size: 1.2rem;
-    }
 
-    .Coder-side {
-      width:180px;
-      padding: 5px 5px;
-      font-size: 1.2rem;
-      letter-spacing: 2px;
-   }
-   .Designer-side {
-    width: 120px;
-    padding: 5px 5px;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
- }
-  }
-  } 
-  .stage-cube-cont{
-    position: fixed;
-    top: 300px;
-    right: 220px;
-  }  
-}
 
 @media screen and (max-width: 500px) {
   
   .about-page 
   .SectionOne {
-    padding-top: 20px;
-    padding-left: 30px;
+    padding-top: 0px;
   .text-zone{
-    text-align: center;
+    position: relative;
+    margin: 0px auto;
     h1 {
       font-size: 4rem;
+      text-align:center;
     
       &:before {
-        visibility: hidden;
+        display: none;
       }
     
       &:after {
-        visibility: hidden;
+        display: none;
       }
     }
     p {
+      padding-top: 0px;
       font-size: 1.2rem;
     }
 
     .Coder-side {
-      width:120px;
-      padding: 2px 2px;
-      font-size: 1.2rem;
-      letter-spacing: 1px;
-   }
-   .Designer-side {
-    width: 80px;
-    padding: 2px 2px;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
+      width: 150px;
+      font-size: 1rem;
+      border: 0px;
+      padding: 0px;
+    }
+    .Designer-side {
+      font-size: 1rem;
+      border: 0px;
+      width: 100px;
+      padding: 0px;
  }
   }
   } 
   .stage-cube-cont{
-    position: fixed;
-    top: 300px;
-    right: 220px;
-  }  
+    display: none;
+  } 
 }

@@ -84,6 +84,26 @@ const Portfolio = () => {
                     </div>
                   </div>  
                 </Link>
+                <Link to="/snowchild" className="project-card" >
+                  <div className="imgContainer">
+                    <img src={snowChild} alt="sc" className="scImg"/>
+                    <div className="projectNameContainer">
+                      <p>
+                        SnowChild
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
+                <Link to="/snowchild" className="project-card" >
+                  <div className="imgContainer">
+                    <img src={snowChild} alt="sc" className="scImg"/>
+                    <div className="projectNameContainer">
+                      <p>
+                        SnowChild
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
               </div>
             </section> 
 

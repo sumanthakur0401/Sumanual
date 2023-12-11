@@ -1047,12 +1047,12 @@
               margin: 0 auto;
               
             p{  
-              text-align: center;
-              font-size: 1.2rem;
+              width: 90%;
+              font-size: 1.5rem;
               font-family: 'Coolvetica';
               color: #8b8a91;
               font-weight: 400;
-              margin: 2px 0;
+              margin: 10px auto;
               animation: pulse 1s;
               &:nth-of-type(1) {
                 animation-delay: 1.4s;
@@ -1075,11 +1075,11 @@
               font-family: 'Coolvetica';
               font-weight: 100;
               border-radius: 5px;
-              padding: 0px;
+              padding: 1px;
               letter-spacing: 1px;
-              padding-left: 2px;
-              padding-right: 2px;
-              margin: 8px;
+              padding-left: 5px;
+              padding-right: 5px;
+              margin: 5px;
               width: auto;
               height: auto;
               font-size: .8rem;  
@@ -1150,11 +1150,11 @@
           }
   
           .projectTag{
-            text-align: center;
-            width: 60%;
+            
+            width: 90%;
             padding-top: 50px;
-            margin: 2px auto;
-            font-size: 1.2rem;
+            margin: 10px auto;
+            font-size: 1.5rem;
             color: #8b8a91;
             font-family: 'Coolvetica';
             animation: pulse 1s;
@@ -1175,7 +1175,7 @@
             height: 150px;
             margin-bottom: 20px;
             border-radius: 10px;
-            background-color: #22202b4b;
+            background-color: #3b364d53;
             text-decoration: none;
             color: #8b8a91;
             transition: .3s;
@@ -1229,12 +1229,11 @@
               margin: 0 auto;
               
             p{  
-              text-align: center;
-              font-size: 1.2rem;
+              font-size: 1.5rem;
               font-family: 'Coolvetica';
               color: #8b8a91;
               font-weight: 400;
-              margin: 0px 0;
+              margin: 10px auto;
               animation: pulse 1s;
               &:nth-of-type(1) {
                 animation-delay: 1.4s;
@@ -1257,11 +1256,11 @@
               font-family: 'Coolvetica';
               font-weight: 100;
               border-radius: 5px;
-              padding: 0px;
+              padding: 1px;
               letter-spacing: 1px;
-              padding-left: 2px;
-              padding-right: 2px;
-              margin: 8px;
+              padding-left: 5px;
+              padding-right: 5px;
+              margin: 5px;
               width: auto;
               height: auto;
               font-size: .8rem;  
@@ -1313,11 +1312,9 @@
           .workTag{
             width: 90%;
             padding-top: 50px;
-            margin: 2px auto;
-            font-size: 1.2rem;
+            margin: 10px auto;
+            font-size: 1.5rem;
             color: #8b8a91;
-            text-align: 
-            center;
             font-family: 'Coolvetica';
             animation: pulse 1s;
               &:nth-of-type(1) {
@@ -1337,7 +1334,7 @@
             height: 150px;
             margin-bottom: 20px;
             border-radius: 10px;
-            background-color: #22202b4b;
+            background-color: #3b364d53;
             text-decoration: none;
             color: #8b8a91;
             transition: .3s;

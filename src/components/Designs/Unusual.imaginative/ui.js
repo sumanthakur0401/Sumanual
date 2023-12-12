@@ -43,7 +43,7 @@ const UI = () => {
     return (
       <>
         <NavBar/>
-        <div className="container snowchild-page">
+        <div className="container ui-page">
          
             <section className='project-data'>
               <div className="TextZone">
@@ -57,7 +57,7 @@ const UI = () => {
               </div> 
 
               <div className="techUsed">
-                    <div className="lang-soft" id="photoshop">
+                    <div className="soft-used" id="photoshop">
                       Photoshop
                     </div>
               </div>

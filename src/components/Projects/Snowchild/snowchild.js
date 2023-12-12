@@ -28,7 +28,7 @@ const Snowchild = () => {
         <NavBar/>
         <div className="container snowchild-page">
          
-            <section className='project-data'>
+            <section className='snow-data'>
               <div className="TextZone">
                 <h1>
                     <AnimatedLetters

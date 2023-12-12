@@ -51,7 +51,7 @@ const UI = () => {
                     <AnimatedLetters
                     letterClass={letterClass}
                     strArray={['U', 'n', 'u', 's', 'u', 'a', 'l', '.', 'i','m', 'a', 'g', 'i', 'n', 'a', 't', 'i', 'v', 'e']}
-                    idx={15}
+                    idx={10}
                     />
                 </h1>
               </div> 
@@ -64,7 +64,7 @@ const UI = () => {
 
               <div className="img-gall">
                 <Link to="https://www.instagram.com/unusual.imaginative/" className="img-link">
-                    <img src={imgSet[currentImageIndex]} alt="Pic" className='myPic' id='img'/>
+                    <img src={imgSet[currentImageIndex]} alt="Pic" className='myPic' id='img' href="https://www.instagram.com/unusual.imaginative/"/>
                 </Link> 
               </div>
 

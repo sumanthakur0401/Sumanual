@@ -64,7 +64,7 @@ const UI = () => {
 
               <div className="img-gall">
                 <Link to="https://www.instagram.com/unusual.imaginative/" className="img-link">
-                    <img src={imgSet[currentImageIndex]} alt="Pic" className='myPic' id='img' href="https://www.instagram.com/unusual.imaginative/"/>
+                    <img src={imgSet[currentImageIndex]} alt="Pic" className='myPic' id='img'/>
                 </Link> 
               </div>
 

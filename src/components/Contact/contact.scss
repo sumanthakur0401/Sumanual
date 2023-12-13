@@ -577,7 +577,7 @@
 @media screen and (max-width: 600px) {
       .contact-page {
           width: 100%;
-          height: 100%;
+          height: auto;
           top: 0px;
           overflow: auto;
       
@@ -630,7 +630,7 @@
                       width: auto;
                       height: auto;
                       margin: 8px;
-                      font-size: 1.2rem;
+                      font-size: 1.5rem;
                       font-family: 'Coolvetica';
   
                       a{  
@@ -703,7 +703,7 @@
               margin: 0 auto;
 
               .name-email-tag{
-                width: 48%;
+                width: 100%;
                 margin:0 auto;
                 .tag-text{
                   font-size: 1.2rem;
@@ -714,7 +714,7 @@
                 input{
                   width: 98%;
                   background-color: #8b8a911a;
-                  height: 20px;
+                  height: 30px;
                   color: #f5f5f5;
                   font-size: 1.2rem;
                   border-radius: 5px;
@@ -723,7 +723,7 @@
               }
   
               .message-tag{
-                width: 48%;
+                width: 100%;
                 margin: 0 auto;
                 .name-tag{
                   font-size: 1.2rem;
@@ -748,8 +748,8 @@
               text-align: center;
               input{
                 margin-top: 5px;
-                width: 48%;
-                height: 20px;
+                width: 100%;
+                height: 30px;
                 border-radius: 5px;
                 background-color: #0a66c27c;
                 border: 1px solid #0A66C2;

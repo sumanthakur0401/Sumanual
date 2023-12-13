@@ -28,7 +28,7 @@ const Contact = () => {
         emailjs.sendForm('service_efxwscv', 'template_bpycjrj', form.current, 'tjB3LkghUZLSqg7N7')
           .then((result) => {
               console.log(result.text);
-              alert('Email sent sucessfully!!!, I will contact you soon.');
+              alert('Recieved! Will contact you soon, Thankyou');
               setNameField(" ");
               setEmailField(" ");
               setMessageField(" ");

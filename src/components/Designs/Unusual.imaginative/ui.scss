@@ -75,7 +75,7 @@
             width: 100%;
             border: 5px solid #8b8a91;
             background-color: #8b8a91;
-            animation: exampleAnimation 5s ease-in-out infinite;
+            animation: exampleAnimation 3s ease-in-out infinite;
           }
           .myPic:hover{
                 border: 5px solid #0A66C2;
@@ -86,7 +86,7 @@
             0%, 100% {
                 transform: rotate(0deg);
               }
-              5% {
+              10% {
                 transform: rotate(360deg);
               }
               100% {

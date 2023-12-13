@@ -34,7 +34,7 @@ const UI = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imgSet.length);
       };
     useEffect(() => {
-        const intervalId = setInterval(changeImage, 5000);
+        const intervalId = setInterval(changeImage, 3000);
     
         // Clear the interval when the component is unmounted
         return () => clearInterval(intervalId);

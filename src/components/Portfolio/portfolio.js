@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters/animation";
 import snowChild from "../../assets/images/snowChildOpening.png"
-import proud from '../../assets/images/proudOpening.png'
+import frontPage_s from '../../assets/images/Sumanual_frontpage.png'
+import frontPage_a from '../../assets/images/Amazon_frontpage.png'
+import frontPage_n from '../../assets/images/Netflix_frontpage.png'
 import profilePictureUI from '../../assets/images/UI/profilePictureUI.jpg'
 import { Link,} from 'react-router-dom'
 import NavBar from '../NavBar/navBar'
@@ -80,6 +82,39 @@ const Portfolio = () => {
                     <div className="projectNameContainer">
                       <p>
                         SnowChild
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
+
+                <Link to="https://github.com/sumanthakur0401/Sumanual" className="project-card" >
+                  <div className="imgContainer">
+                    <img src={frontPage_s} alt="sc" className="scImg"/>
+                    <div className="projectNameContainer">
+                      <p>
+                        Sumanual
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
+
+                <Link to="https://github.com/sumanthakur0401/Amazon-Clone" className="project-card" >
+                  <div className="imgContainer">
+                    <img src={frontPage_a} alt="amazon" className="scImg"/>
+                    <div className="projectNameContainer">
+                      <p>
+                        Amazon Clone 
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
+
+                <Link to="https://github.com/sumanthakur0401/Netflix-Clone" className="project-card" >
+                  <div className="imgContainer">
+                    <img src={frontPage_n} alt="netflix" className="scImg"/>
+                    <div className="projectNameContainer">
+                      <p>
+                        Netflix Clone
                       </p>
                     </div>
                   </div>  

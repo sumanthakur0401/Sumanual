@@ -6,6 +6,7 @@ import frontPage_s from '../../assets/images/Sumanual_frontpage.png'
 import frontPage_a from '../../assets/images/Amazon_frontpage.png'
 import frontPage_n from '../../assets/images/Netflix_frontpage.png'
 import profilePictureUI from '../../assets/images/UI/profilePictureUI.jpg'
+import profilePictureAI from '../../assets/images/profilePictureAi.jpg'
 import { Link,} from 'react-router-dom'
 import NavBar from '../NavBar/navBar'
 import "./portfolio.scss";
@@ -169,6 +170,17 @@ const Portfolio = () => {
                     <div className="workNameContainer">
                       <p>
                         Unusual.imaginative
+                      </p>
+                    </div>
+                  </div>  
+                </Link>
+
+                <Link to="https://www.instagram.com/unusual.ai/?hl=en" className="work-card">
+                  <div className="imgContainer">
+                    <img src={profilePictureAI} alt="sc" className="uiImg"/>
+                    <div className="workNameContainer">
+                      <p>
+                        Unusual.ai
                       </p>
                     </div>
                   </div>  

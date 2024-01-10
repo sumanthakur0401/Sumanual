@@ -186,7 +186,6 @@ const Portfolio = () => {
                   </div>  
                 </Link>
               </div>  
-              
             </section> 
         </div>
         <Loader type="pacman" />

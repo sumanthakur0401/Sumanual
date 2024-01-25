@@ -52,7 +52,7 @@ const NavBar = () => {
           <FontAwesomeIcon icon={faEnvelope} color="#8b8a91" />
         </NavLink>
 
-        <a className='resume' href="https://drive.google.com/file/d/1DzWUp65gCgxdAY2iX_m3SJs7yBeYMITP/view?usp=sharing">My Resume</a>
+        <a className='resume' href="https://drive.google.com/file/d/10yceJqL2Sqd4kliOVUoFugb30XoYNbhz/view?usp=sharing">My Resume</a>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
@@ -128,7 +128,7 @@ const NavBar = () => {
           className='hamburger-icon' />
       <div className='downloadResume'>
           <p>
-            Download my <a href='https://drive.google.com/file/d/1DzWUp65gCgxdAY2iX_m3SJs7yBeYMITP/view?usp=sharing'>Resume</a> here.
+            Download my <a href='https://drive.google.com/file/d/10yceJqL2Sqd4kliOVUoFugb30XoYNbhz/view?usp=sharing'>Resume</a> here.
           </p>
       </div>
     </div>
